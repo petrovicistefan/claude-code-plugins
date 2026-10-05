@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.log
+.env
+.DS_Store
+*.db
+data/
+__pycache__/
+*.pyc
+.claude-mem/
+.project-memory/
+screenshots/
+diff-from-main-*.zip
+unpublished-10-from-main.zip

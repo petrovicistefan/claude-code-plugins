@@ -1,0 +1,31 @@
+{
+  "name": "bundle-size-sentinel",
+  "version": "1.3.2",
+  "displayName": "Bundle Size Sentinel: JavaScript Bundle Analyzer",
+  "description": "Keep JavaScript bundles small: check npm dependencies before adding them, and measure raw and gzip size of every JS and CSS file in your build, with before and after comparison.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "bundle-size",
+    "webpack",
+    "vite",
+    "nextjs",
+    "javascript",
+    "performance",
+    "npm",
+    "web-vitals",
+    "bundle-analyzer",
+    "tree-shaking",
+    "gzip",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/bundle-size-sentinel#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

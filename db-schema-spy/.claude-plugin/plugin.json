@@ -1,0 +1,32 @@
+{
+  "name": "db-schema-spy",
+  "version": "1.3.2",
+  "displayName": "DB Schema Spy: Database Schema Explorer and ERD",
+  "description": "See your real database schema before writing SQL: tables, columns, foreign keys and indexes from Prisma, Drizzle, Django, Rails or migrations, with Mermaid ER diagrams.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "database",
+    "sql",
+    "schema",
+    "erd",
+    "postgres",
+    "mysql",
+    "prisma",
+    "migrations",
+    "er-diagram",
+    "mermaid",
+    "sqlite",
+    "database-schema",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/db-schema-spy#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

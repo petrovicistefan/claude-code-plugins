@@ -1,0 +1,30 @@
+{
+  "name": "task-observer",
+  "version": "1.3.2",
+  "displayName": "Task Observer: Learn Your Preferences",
+  "description": "Turn your corrections into lasting rules in CLAUDE.md, so Claude Code remembers your package manager, style and conventions in every session.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "preferences",
+    "claude-md",
+    "conventions",
+    "workflow",
+    "productivity",
+    "memory",
+    "claude-code-rules",
+    "custom-instructions",
+    "learning",
+    "coding-conventions",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/task-observer#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

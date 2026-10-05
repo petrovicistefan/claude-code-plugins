@@ -1,0 +1,132 @@
+{
+  "name": "petrovici-plugins",
+  "owner": {
+    "name": "Stefan Petrovici",
+    "url": "https://petrovicistefan.ro"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for everyday development work by Stefan Petrovici"
+  },
+  "plugins": [
+    {
+      "name": "api-drift-detector",
+      "source": "./api-drift-detector",
+      "description": "Catch breaking API changes before production: compare TypeScript types across frontend, backend and Prisma or SQL schemas, and confirm mismatches with tsc.",
+      "version": "1.3.2"
+    },
+    {
+      "name": "aws-cost-guard",
+      "source": "./aws-cost-guard",
+      "description": "Find out why your AWS bill grew: costs by service, idle EC2, EBS and Elastic IPs, plus failing Kubernetes pods explained from logs. Read-only, uses your aws and kubectl CLI.",
+      "version": "1.3.2"
+    },
+    {
+      "name": "bundle-size-sentinel",
+      "source": "./bundle-size-sentinel",
+      "description": "Keep JavaScript bundles small: check npm dependencies before adding them, and measure raw and gzip size of every JS and CSS file in your build, with before and after comparison.",
+      "version": "1.3.2"
+    },
+    {
+      "name": "caveman",
+      "source": "./caveman",
+      "description": "Make Claude answer short and to the point: answer or code first, no filler, no repeated questions. A concise mode that saves reading time and output tokens.",
+      "version": "1.3.2"
+    },
+    {
+      "name": "context-compactor",
+      "source": "./context-compactor",
+      "description": "Keep long Claude Code sessions fast and under the context limit: read less, summarize state, and get the exact /compact command that keeps what matters.",
+      "version": "1.3.2"
+    },
+    {
+      "name": "db-schema-spy",
+      "source": "./db-schema-spy",
+      "description": "See your real database schema before writing SQL: tables, columns, foreign keys and indexes from Prisma, Drizzle, Django, Rails or migrations, with Mermaid ER diagrams.",
+      "version": "1.3.2"
+    },
+    {
+      "name": "env-protector",
+      "source": "./env-protector",
+      "description": "Find leaked API keys, passwords and tokens in your code, scan staged files before commit, and keep .env secrets out of Claude's context and your git history.",
+      "version": "1.3.2"
+    },
+    {
+      "name": "exa-search",
+      "source": "./exa-search",
+      "description": "Give Claude live web search for current docs, release notes, changelogs and error messages newer than its training data, with dated sources. Uses the official Exa MCP server.",
+      "version": "1.3.2"
+    },
+    {
+      "name": "figma-to-code",
+      "source": "./figma-to-code",
+      "description": "Turn Figma frames into React, Vue or HTML components that reuse your design tokens and existing components, responsive and accessible. Uses Figma's official MCP server.",
+      "version": "1.3.2"
+    },
+    {
+      "name": "headroom",
+      "source": "./headroom",
+      "description": "Work with huge logs, long docs, big JSON and CSV files without filling the context: outline first, read only what matters, keep a digest with line references.",
+      "version": "1.3.2"
+    },
+    {
+      "name": "i18n-sync",
+      "source": "./i18n-sync",
+      "description": "Find missing, extra and untranslated keys in i18n locale JSON files, check placeholders, and detect hardcoded strings. Works with react-i18next, next-intl, vue-i18n and similar.",
+      "version": "1.3.2"
+    },
+    {
+      "name": "legacy-refactor-pilot",
+      "source": "./legacy-refactor-pilot",
+      "description": "Modernize legacy code step by step: upgrade frameworks, replace deprecated APIs and old patterns, with tests and type checks after every change.",
+      "version": "1.3.2"
+    },
+    {
+      "name": "mock-data-hydrator",
+      "source": "./mock-data-hydrator",
+      "description": "Generate realistic seed and test data that matches your schema: Prisma seeds, Django fixtures, Rails seeds, SQL inserts or JSON, with foreign keys and edge cases.",
+      "version": "1.3.2"
+    },
+    {
+      "name": "omniout",
+      "source": "./omniout",
+      "description": "Make your app's AI calls reliable: timeouts, retries with backoff, rate limit handling and fallback across OpenAI, Anthropic, Google and other models.",
+      "version": "1.3.2"
+    },
+    {
+      "name": "pr-story-aligner",
+      "source": "./pr-story-aligner",
+      "description": "Check a pull request against its Jira, Linear or GitHub issue before merge: each acceptance criterion marked done, partial or missing, plus out-of-scope changes.",
+      "version": "1.3.2"
+    },
+    {
+      "name": "project-memory",
+      "source": "./project-memory",
+      "description": "Give Claude Code long-term memory per project: remember decisions, conventions and setup across sessions in a local SQLite file. Recall, update and forget on demand.",
+      "version": "1.4.0"
+    },
+    {
+      "name": "responsive-check",
+      "source": "./responsive-check",
+      "description": "Screenshot any page at phone, tablet and desktop sizes and find horizontal overflow and layout bugs. Uses the Chrome or Edge you already have, nothing to install.",
+      "version": "1.3.2"
+    },
+    {
+      "name": "rls-schema-explorer",
+      "source": "./rls-schema-explorer",
+      "description": "Let Claude read your real Supabase tables, columns and RLS policies before writing queries, migrations or supabase-js code. Read-only, official Supabase MCP server.",
+      "version": "1.4.0"
+    },
+    {
+      "name": "smart-commits",
+      "source": "./smart-commits",
+      "description": "Generate clear git commit messages from your staged diff in Conventional Commits format, with the why in the body, matched to your repo's style.",
+      "version": "1.3.2"
+    },
+    {
+      "name": "task-observer",
+      "source": "./task-observer",
+      "description": "Turn your corrections into lasting rules in CLAUDE.md, so Claude Code remembers your package manager, style and conventions in every session.",
+      "version": "1.3.2"
+    }
+  ]
+}

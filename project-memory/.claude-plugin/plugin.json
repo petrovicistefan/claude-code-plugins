@@ -1,0 +1,29 @@
+{
+  "name": "project-memory",
+  "version": "1.4.0",
+  "displayName": "Project Memory: Long-Term Memory for Claude Code",
+  "description": "Give Claude Code long-term memory per project: remember decisions, conventions and setup across sessions in a local SQLite file. Recall, update and forget on demand.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "memory",
+    "persistent-memory",
+    "context",
+    "sqlite",
+    "long-term-memory",
+    "project-knowledge",
+    "remember",
+    "claude-code-memory",
+    "project-memory",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/project-memory#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

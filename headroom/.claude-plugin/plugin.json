@@ -1,0 +1,31 @@
+{
+  "name": "headroom",
+  "version": "1.3.2",
+  "displayName": "Headroom: Large File and Log Reader",
+  "description": "Work with huge logs, long docs, big JSON and CSV files without filling the context: outline first, read only what matters, keep a digest with line references.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "logs",
+    "large-files",
+    "json",
+    "csv",
+    "log-analysis",
+    "context-window",
+    "tokens",
+    "log-reader",
+    "large-json",
+    "jsonl",
+    "big-files",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/headroom#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

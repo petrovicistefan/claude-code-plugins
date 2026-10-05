@@ -1,0 +1,33 @@
+{
+  "name": "rls-schema-explorer",
+  "version": "1.4.0",
+  "displayName": "RLS Schema Explorer for Supabase",
+  "description": "Let Claude read your real Supabase tables, columns and RLS policies before writing queries, migrations or supabase-js code. Read-only, official Supabase MCP server.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "supabase",
+    "postgres",
+    "rls",
+    "database",
+    "sql",
+    "migrations",
+    "mcp",
+    "supabase-mcp",
+    "row-level-security",
+    "supabase-js",
+    "postgresql",
+    "rls-policies",
+    "schema-explorer",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/rls-schema-explorer#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "omniout",
+  "version": "1.3.2",
+  "displayName": "Omniout: LLM Retries and Model Fallback",
+  "description": "Make your app's AI calls reliable: timeouts, retries with backoff, rate limit handling and fallback across OpenAI, Anthropic, Google and other models.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "llm",
+    "ai",
+    "fallback",
+    "retry",
+    "rate-limit",
+    "openai",
+    "anthropic",
+    "reliability",
+    "llm-fallback",
+    "gemini",
+    "timeouts",
+    "error-handling",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/omniout#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

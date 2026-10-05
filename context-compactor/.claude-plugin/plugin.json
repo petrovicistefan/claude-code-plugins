@@ -1,0 +1,30 @@
+{
+  "name": "context-compactor",
+  "version": "1.3.2",
+  "displayName": "Context Compactor: Faster Long Sessions",
+  "description": "Keep long Claude Code sessions fast and under the context limit: read less, summarize state, and get the exact /compact command that keeps what matters.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "context-window",
+    "tokens",
+    "compact",
+    "performance",
+    "token-saving",
+    "long-sessions",
+    "context-management",
+    "compaction",
+    "claude-md",
+    "token-usage",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/context-compactor#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

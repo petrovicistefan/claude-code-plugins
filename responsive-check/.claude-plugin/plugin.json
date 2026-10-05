@@ -1,0 +1,31 @@
+{
+  "name": "responsive-check",
+  "version": "1.3.2",
+  "displayName": "Responsive Check: Mobile Layout Tester",
+  "description": "Screenshot any page at phone, tablet and desktop sizes and find horizontal overflow and layout bugs. Uses the Chrome or Edge you already have, nothing to install.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "responsive-design",
+    "mobile",
+    "screenshots",
+    "css",
+    "layout",
+    "frontend",
+    "testing",
+    "responsive-testing",
+    "viewport",
+    "mobile-first",
+    "overflow",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/responsive-check#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

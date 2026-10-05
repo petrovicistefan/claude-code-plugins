@@ -1,0 +1,32 @@
+{
+  "name": "figma-to-code",
+  "version": "1.3.2",
+  "displayName": "Figma to Code: Design to React, Vue and HTML",
+  "description": "Turn Figma frames into React, Vue or HTML components that reuse your design tokens and existing components, responsive and accessible. Uses Figma's official MCP server.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "figma",
+    "design-to-code",
+    "react",
+    "vue",
+    "tailwind",
+    "frontend",
+    "ui",
+    "mcp",
+    "design-system",
+    "nextjs",
+    "figma-mcp",
+    "ui-components",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/figma-to-code#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

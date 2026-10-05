@@ -1,0 +1,32 @@
+{
+  "name": "api-drift-detector",
+  "version": "1.3.2",
+  "displayName": "API Drift Detector: TypeScript Contract Checker",
+  "description": "Catch breaking API changes before production: compare TypeScript types across frontend, backend and Prisma or SQL schemas, and confirm mismatches with tsc.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "api",
+    "type-safety",
+    "breaking-changes",
+    "prisma",
+    "openapi",
+    "contract-testing",
+    "full-stack",
+    "zod",
+    "tsc",
+    "api-contract",
+    "frontend-backend",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/api-drift-detector#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "aws-cost-guard",
+  "version": "1.3.2",
+  "displayName": "AWS Cost Guard: Cloud Cost and Kubernetes Debugging",
+  "description": "Find out why your AWS bill grew: costs by service, idle EC2, EBS and Elastic IPs, plus failing Kubernetes pods explained from logs. Read-only, uses your aws and kubectl CLI.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "aws",
+    "aws-costs",
+    "finops",
+    "cost-optimization",
+    "kubernetes",
+    "kubectl",
+    "devops",
+    "cloud",
+    "aws-billing",
+    "cost-explorer",
+    "ec2",
+    "cloud-costs",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/aws-cost-guard#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

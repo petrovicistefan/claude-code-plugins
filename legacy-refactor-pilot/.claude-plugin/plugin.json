@@ -1,0 +1,31 @@
+{
+  "name": "legacy-refactor-pilot",
+  "version": "1.3.2",
+  "displayName": "Legacy Refactor Pilot: Safe Code Modernization",
+  "description": "Modernize legacy code step by step: upgrade frameworks, replace deprecated APIs and old patterns, with tests and type checks after every change.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "refactoring",
+    "legacy-code",
+    "migration",
+    "upgrade",
+    "technical-debt",
+    "modernization",
+    "codemods",
+    "modernize",
+    "javascript-to-typescript",
+    "code-upgrade",
+    "safe-refactoring",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/legacy-refactor-pilot#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

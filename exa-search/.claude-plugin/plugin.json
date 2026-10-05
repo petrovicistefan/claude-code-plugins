@@ -1,0 +1,30 @@
+{
+  "name": "exa-search",
+  "version": "1.3.2",
+  "displayName": "Exa Search: Live Web and Docs Search",
+  "description": "Give Claude live web search for current docs, release notes, changelogs and error messages newer than its training data, with dated sources. Uses the official Exa MCP server.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "web-search",
+    "documentation",
+    "research",
+    "changelog",
+    "exa",
+    "mcp",
+    "up-to-date",
+    "docs-search",
+    "latest-docs",
+    "search-engine",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/exa-search#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

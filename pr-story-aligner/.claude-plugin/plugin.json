@@ -1,0 +1,31 @@
+{
+  "name": "pr-story-aligner",
+  "version": "1.3.2",
+  "displayName": "PR Story Aligner: Pull Request vs Ticket Check",
+  "description": "Check a pull request against its Jira, Linear or GitHub issue before merge: each acceptance criterion marked done, partial or missing, plus out-of-scope changes.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "pull-request",
+    "code-review",
+    "jira",
+    "linear",
+    "github",
+    "acceptance-criteria",
+    "qa",
+    "pr-review",
+    "user-stories",
+    "ticket",
+    "requirements",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/pr-story-aligner#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}
