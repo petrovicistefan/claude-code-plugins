@@ -75,8 +75,8 @@
       "version": "1.0.0"
     },
     {
-      "name": "docker-optimizer",
-      "source": "./docker-optimizer",
+      "name": "dockerfile-optimizer",
+      "source": "./dockerfile-optimizer",
       "description": "Review Dockerfiles for image size, build cache order and security: multi-stage builds, slim base images, non-root users, no secrets in layers, and a complete .dockerignore.",
       "version": "1.0.0"
     },

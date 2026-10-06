@@ -32,7 +32,7 @@ claude --plugin-dir ./env-protector
 | [context-compactor](context-compactor) | Keeping long sessions small and fast | `/context-compactor:compact-plan` |
 | [db-schema-spy](db-schema-spy) | Tables, relations, indexes and ER diagrams | `/db-schema-spy:schema` |
 | [dependency-sentinel](dependency-sentinel) | Known vulnerabilities and licenses of dependencies | `/dependency-sentinel:dep-scan` |
-| [docker-optimizer](docker-optimizer) | Smaller, faster and safer Docker images | `/docker-optimizer:docker-check` |
+| [dockerfile-optimizer](dockerfile-optimizer) | Smaller, faster and safer Docker images | `/dockerfile-optimizer:docker-check` |
 | [env-protector](env-protector) | Keeping secrets out of the chat and out of git | `/env-protector:scan-secrets` |
 | [exa-search](exa-search) | Current docs and releases through Exa | `/exa-search:search` |
 | [figma-to-code](figma-to-code) | Figma frames to components in your stack | `/figma-to-code:implement` |

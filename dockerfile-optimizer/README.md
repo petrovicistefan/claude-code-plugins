@@ -1,4 +1,4 @@
-# Docker Optimizer: Smaller, Safer Docker Images
+# Dockerfile Optimizer: Smaller, Safer Docker Images
 
 Make your container images smaller, faster to build and safer to run.
 
@@ -10,8 +10,8 @@ Make your container images smaller, faster to build and safer to run.
 
 ## Use it
 
-- `/docker-optimizer:docker-check` or `/docker-optimizer:docker-check services/api/Dockerfile`
-- `/docker-optimizer:docker-size myapp:latest`
+- `/dockerfile-optimizer:docker-check` or `/dockerfile-optimizer:docker-check services/api/Dockerfile`
+- `/dockerfile-optimizer:docker-size myapp:latest`
 - Or ask: "Why is our Docker image 1.5 GB?"
 
 ## Requirements

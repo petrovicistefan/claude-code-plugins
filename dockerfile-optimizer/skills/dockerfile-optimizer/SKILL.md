@@ -1,9 +1,9 @@
 ---
-name: docker-optimizer
+name: dockerfile-optimizer
 description: "Use when writing or reviewing a Dockerfile, when a container image is too large or builds slowly, or when hardening an image for production."
 ---
 
-# Docker Optimizer
+# Dockerfile Optimizer
 
 Make container images smaller, faster to build and safer to run.
 

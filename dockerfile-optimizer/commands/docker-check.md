@@ -3,4 +3,4 @@ description: "Review Dockerfiles for size, cache and security problems and fix t
 argument-hint: "[Dockerfile]"
 ---
 
-Use the docker-optimizer skill to review and improve the Dockerfile. File: $ARGUMENTS (./Dockerfile if empty).
+Use the dockerfile-optimizer skill to review and improve the Dockerfile. File: $ARGUMENTS (./Dockerfile if empty).
