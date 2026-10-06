@@ -45,7 +45,7 @@ claude --plugin-dir ./env-protector
 | [perf-profiler](perf-profiler) | Lighthouse results and Core Web Vitals causes | `/perf-profiler:perf-audit` |
 | [pr-story-aligner](pr-story-aligner) | Pull requests checked against ticket criteria | `/pr-story-aligner:align` |
 | [project-memory](project-memory) | Local project memory across sessions (SQLite) | `/project-memory:remember` |
-| [prompt-optimizer](prompt-optimizer) | Clearer, shorter prompts for LLM features | `/prompt-optimizer:prompt-review` |
+| [prompt-tightener](prompt-tightener) | Clearer, shorter prompts for LLM features | `/prompt-tightener:prompt-review` |
 | [responsive-check](responsive-check) | Screenshots and layout problems at several screen sizes | `/responsive-check:responsive` |
 | [rls-schema-explorer](rls-schema-explorer) | Real Supabase schema and RLS policies, read-only | `/rls-schema-explorer:schema` |
 | [smart-commits](smart-commits) | Commit messages from the staged diff | `/smart-commits:commit` |

@@ -153,8 +153,8 @@
       "version": "1.4.0"
     },
     {
-      "name": "prompt-optimizer",
-      "source": "./prompt-optimizer",
+      "name": "prompt-tightener",
+      "source": "./prompt-tightener",
       "description": "Review and rewrite prompts and system prompts for Claude and other LLMs: find repetition, filler and vague instructions, keep template variables, and measure the token savings.",
       "version": "1.0.0"
     },

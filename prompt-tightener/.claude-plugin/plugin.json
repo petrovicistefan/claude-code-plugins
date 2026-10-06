@@ -1,7 +1,7 @@
 {
-  "name": "prompt-optimizer",
+  "name": "prompt-tightener",
   "version": "1.0.0",
-  "displayName": "Prompt Optimizer: Clearer, Shorter LLM Prompts",
+  "displayName": "Prompt Tightener: Clearer, Shorter LLM Prompts",
   "description": "Review and rewrite prompts and system prompts for Claude and other LLMs: find repetition, filler and vague instructions, keep template variables, and measure the token savings.",
   "author": {
     "name": "Stefan Petrovici",
@@ -24,7 +24,7 @@
   ],
   "repository": "https://github.com/petrovicistefan/claude-code-plugins",
   "homepage": "https://petrovicistefan.ro",
-  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/prompt-optimizer#readme",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/prompt-tightener#readme",
   "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
   "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
 }

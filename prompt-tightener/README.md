@@ -1,4 +1,4 @@
-# Prompt Optimizer: Clearer, Shorter LLM Prompts
+# Prompt Tightener: Clearer, Shorter LLM Prompts
 
 Make your prompts clearer and shorter without changing what they do, and measure the difference.
 
@@ -10,8 +10,8 @@ Make your prompts clearer and shorter without changing what they do, and measure
 
 ## Use it
 
-- `/prompt-optimizer:prompt-review prompts/support.md`
-- `/prompt-optimizer:prompt-compare old.md new.md 3`
+- `/prompt-tightener:prompt-review prompts/support.md`
+- `/prompt-tightener:prompt-compare old.md new.md 3`
 - Or ask: "Can this system prompt be shorter?"
 
 ## Requirements

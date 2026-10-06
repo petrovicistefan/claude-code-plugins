@@ -1,9 +1,9 @@
 ---
-name: prompt-optimizer
+name: prompt-tightener
 description: "Use when writing, reviewing or shortening a prompt or system prompt for Claude or another LLM, when an LLM feature gives inconsistent answers, or when estimating the token cost of a prompt."
 ---
 
-# Prompt Optimizer
+# Prompt Tightener
 
 Make prompts clearer and shorter without losing behaviour, and measure the difference.
 
