@@ -5,6 +5,8 @@ description: "Use when the user wants Claude to work with a document, log or dat
 
 # Headroom
 
+Scripts: `${CLAUDE_SKILL_DIR}` is the folder that contains this file. If your agent does not define it, use the folder where this `SKILL.md` is located.
+
 Work with very large files without filling the context: measure first, then read in pieces and keep a short digest.
 
 ## 1. Measure

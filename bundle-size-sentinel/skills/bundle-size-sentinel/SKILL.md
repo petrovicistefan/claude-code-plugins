@@ -5,6 +5,8 @@ description: "Use when adding an npm dependency or when a JavaScript bundle grew
 
 # Bundle Size Sentinel
 
+Scripts: `${CLAUDE_SKILL_DIR}` is the folder that contains this file. If your agent does not define it, use the folder where this `SKILL.md` is located.
+
 Keep JavaScript bundles small: check dependencies before they are added and measure build output.
 
 ## Before adding a dependency

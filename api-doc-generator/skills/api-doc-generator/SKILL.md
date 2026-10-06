@@ -5,6 +5,8 @@ description: "Use when writing or updating OpenAPI or Swagger documentation for 
 
 # API Doc Generator
 
+Scripts: `${CLAUDE_SKILL_DIR}` is the folder that contains this file. If your agent does not define it, use the folder where this `SKILL.md` is located.
+
 Write an OpenAPI 3.1 file from the real routes in the code and keep it in sync.
 
 ## 1. Find the routes

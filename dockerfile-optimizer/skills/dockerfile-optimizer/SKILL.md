@@ -5,6 +5,8 @@ description: "Use when writing or reviewing a Dockerfile, when a container image
 
 # Dockerfile Optimizer
 
+Scripts: `${CLAUDE_SKILL_DIR}` is the folder that contains this file. If your agent does not define it, use the folder where this `SKILL.md` is located.
+
 Make container images smaller, faster to build and safer to run.
 
 ## 1. Check the Dockerfile

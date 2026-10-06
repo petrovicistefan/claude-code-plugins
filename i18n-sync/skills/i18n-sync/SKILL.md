@@ -5,6 +5,8 @@ description: "Use when adding or changing user-facing text in a translated app, 
 
 # i18n Sync
 
+Scripts: `${CLAUDE_SKILL_DIR}` is the folder that contains this file. If your agent does not define it, use the folder where this `SKILL.md` is located.
+
 Keep translation files complete and in sync with the code.
 
 ## 1. Find the locale files

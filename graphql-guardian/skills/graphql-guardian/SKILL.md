@@ -5,6 +5,8 @@ description: "Use when changing a GraphQL schema or resolvers, reviewing a Graph
 
 # GraphQL Guardian
 
+Scripts: `${CLAUDE_SKILL_DIR}` is the folder that contains this file. If your agent does not define it, use the folder where this `SKILL.md` is located.
+
 Catch breaking schema changes before clients see them, and find N+1 queries and unbounded queries in resolvers.
 
 ## 1. Breaking changes

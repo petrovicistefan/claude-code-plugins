@@ -5,6 +5,8 @@ description: "Use when the user asks Claude to remember, recall or forget a proj
 
 # Project Memory
 
+Scripts: `${CLAUDE_SKILL_DIR}` is the folder that contains this file. If your agent does not define it, use the folder where this `SKILL.md` is located.
+
 Keep project facts across sessions in a local SQLite database at `.project-memory/memory.db` in the project root.
 
 All operations go through one script:

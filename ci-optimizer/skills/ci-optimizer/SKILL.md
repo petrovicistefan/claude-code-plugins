@@ -5,6 +5,8 @@ description: "Use when a GitHub Actions or GitLab CI pipeline is slow, expensive
 
 # CI Optimizer
 
+Scripts: `${CLAUDE_SKILL_DIR}` is the folder that contains this file. If your agent does not define it, use the folder where this `SKILL.md` is located.
+
 Make CI pipelines faster, cheaper and safer, based on the real workflow files and real run times.
 
 ## 1. Check the workflow files

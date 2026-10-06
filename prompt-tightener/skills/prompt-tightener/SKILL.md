@@ -5,6 +5,8 @@ description: "Use when writing, reviewing or shortening a prompt or system promp
 
 # Prompt Tightener
 
+Scripts: `${CLAUDE_SKILL_DIR}` is the folder that contains this file. If your agent does not define it, use the folder where this `SKILL.md` is located.
+
 Make prompts clearer and shorter without losing behaviour, and measure the difference.
 
 ## 1. Find the prompt

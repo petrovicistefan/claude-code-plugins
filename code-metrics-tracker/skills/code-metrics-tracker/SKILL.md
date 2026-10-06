@@ -5,6 +5,8 @@ description: "Use when asked about code quality, technical debt, complex or dupl
 
 # Code Metrics Tracker
 
+Scripts: `${CLAUDE_SKILL_DIR}` is the folder that contains this file. If your agent does not define it, use the folder where this `SKILL.md` is located.
+
 Measure complexity, size and duplication, find the code worth refactoring, and track the numbers over time.
 
 ## 1. Measure

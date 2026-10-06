@@ -5,6 +5,8 @@ description: "Use when a web page is slow, when asked about Lighthouse, Core Web
 
 # Perf Profiler
 
+Scripts: `${CLAUDE_SKILL_DIR}` is the folder that contains this file. If your agent does not define it, use the folder where this `SKILL.md` is located.
+
 Measure web performance with Lighthouse, explain the result and fix the biggest causes first.
 
 ## 1. Measure

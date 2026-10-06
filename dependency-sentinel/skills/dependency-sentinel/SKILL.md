@@ -5,6 +5,8 @@ description: "Use when checking dependencies for known vulnerabilities (CVEs), l
 
 # Dependency Sentinel
 
+Scripts: `${CLAUDE_SKILL_DIR}` is the folder that contains this file. If your agent does not define it, use the folder where this `SKILL.md` is located.
+
 Find known vulnerabilities and license risks in the exact dependency versions a project uses, and fix them safely.
 
 ## 1. Vulnerabilities

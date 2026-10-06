@@ -5,6 +5,8 @@ description: "Use before reading .env or config files, before committing, or whe
 
 # Env Protector
 
+Scripts: `${CLAUDE_SKILL_DIR}` is the folder that contains this file. If your agent does not define it, use the folder where this `SKILL.md` is located.
+
 Keep secrets out of the conversation and out of git.
 
 ## Rules while working

@@ -5,6 +5,8 @@ description: "Use when checking a web page or UI change at several screen sizes,
 
 # Responsive Check
 
+Scripts: `${CLAUDE_SKILL_DIR}` is the folder that contains this file. If your agent does not define it, use the folder where this `SKILL.md` is located.
+
 Capture a page at several viewport sizes and find layout problems.
 
 ## 1. Choose the target

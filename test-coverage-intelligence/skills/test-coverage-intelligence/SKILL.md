@@ -5,6 +5,8 @@ description: "Use when asked what to test next, where test coverage is weak, to 
 
 # Test Coverage Intelligence
 
+Scripts: `${CLAUDE_SKILL_DIR}` is the folder that contains this file. If your agent does not define it, use the folder where this `SKILL.md` is located.
+
 Find the untested code that matters most and write tests for it, instead of chasing a coverage percentage.
 
 ## 1. Get a coverage report

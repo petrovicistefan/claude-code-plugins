@@ -5,6 +5,8 @@ description: "Use when building or reviewing UI in HTML, React, Vue, Svelte or A
 
 # A11y Enforcer
 
+Scripts: `${CLAUDE_SKILL_DIR}` is the folder that contains this file. If your agent does not define it, use the folder where this `SKILL.md` is located.
+
 Find and fix accessibility problems against WCAG 2.2 level AA.
 
 ## 1. Scan the markup
