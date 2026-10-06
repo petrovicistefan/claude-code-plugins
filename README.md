@@ -17,6 +17,18 @@ To try one plugin from a local clone without installing it:
 claude --plugin-dir ./env-protector
 ```
 
+## Use the skills in other agents
+
+The skills in this repository follow the open Agent Skills format (`SKILL.md`), so they also work outside Claude Code, for example in Cursor, Codex CLI, Gemini CLI, GitHub Copilot and Windsurf:
+
+```bash
+npx skills add petrovicistefan/claude-code-plugins
+```
+
+Pick the skills and agents you want when the installer asks. To install by hand, copy a skill folder, for example `env-protector/skills/env-protector`, into your agent's skills directory (`.cursor/skills/`, `.agents/skills/` or the equivalent for your tool).
+
+Only the skills travel to other agents. The slash commands in each `commands/` folder are specific to Claude Code. The three plugins that declare an MCP server (`exa-search`, `figma-to-code`, `rls-schema-explorer`) use a standard MCP connection, so the same server also works in any MCP client.
+
 ## Plugins
 
 | Plugin | What it helps with | Command |
