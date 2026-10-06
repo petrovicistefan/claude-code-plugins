@@ -1,0 +1,31 @@
+{
+  "name": "db-migration-safety",
+  "version": "1.0.0",
+  "displayName": "DB Migration Safety: Check Migrations Before You Run Them",
+  "description": "Check SQL migrations for table locks, data loss and changes that break the running app, get the safer way to write each one, and a rollback plan before you deploy.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "database",
+    "migrations",
+    "postgres",
+    "mysql",
+    "zero-downtime",
+    "schema-change",
+    "prisma",
+    "django",
+    "alembic",
+    "flyway",
+    "rollback",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/db-migration-safety#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

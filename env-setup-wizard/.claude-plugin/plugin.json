@@ -1,0 +1,29 @@
+{
+  "name": "env-setup-wizard",
+  "version": "1.0.0",
+  "displayName": "Env Setup Wizard: Get a Repo Running Locally",
+  "description": "Find out what a freshly cloned repo needs to run: runtime versions, package manager, missing .env keys, Docker services and the right start commands, then set it up step by step.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "onboarding",
+    "setup",
+    "dev-environment",
+    "env-file",
+    "dotenv",
+    "node-version",
+    "docker-compose",
+    "new-repo",
+    "developer-productivity",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/env-setup-wizard#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

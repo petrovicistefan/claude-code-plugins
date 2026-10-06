@@ -15,6 +15,8 @@ Most plugins only contain instructions for Claude and small scripts that run loc
 - `project-memory` stores memories in `.project-memory/memory.db` in your project
 - `task-observer` writes preferences to `CLAUDE.md` or `CLAUDE.local.md`, only after you agree
 - `bundle-size-sentinel`, `headroom`, `i18n-sync`, `env-protector` and `responsive-check` write reports or screenshots only to the folders you choose
+- `flaky-test-detector` writes test results to `.flaky-runs/` in your project and removes the folder when done unless you ask to keep it
+- `env-setup-wizard` and `db-migration-safety` only read your project files and write nothing unless you approve a step; `env-setup-wizard` reads the names of keys in `.env` files and never prints their values, and `db-migration-safety` never connects to a database
 - `code-metrics-tracker`, `test-coverage-intelligence`, `dependency-sentinel` and `perf-profiler` write snapshots or reports only to the files you name
 
 ## Third-party services

@@ -63,6 +63,12 @@
       "version": "1.3.2"
     },
     {
+      "name": "db-migration-safety",
+      "source": "./db-migration-safety",
+      "description": "Check SQL migrations for table locks, data loss and changes that break the running app, get the safer way to write each one, and a rollback plan before you deploy.",
+      "version": "1.0.0"
+    },
+    {
       "name": "db-schema-spy",
       "source": "./db-schema-spy",
       "description": "See your real database schema before writing SQL: tables, columns, foreign keys and indexes from Prisma, Drizzle, Django, Rails or migrations, with Mermaid ER diagrams.",
@@ -87,6 +93,12 @@
       "version": "1.3.2"
     },
     {
+      "name": "env-setup-wizard",
+      "source": "./env-setup-wizard",
+      "description": "Find out what a freshly cloned repo needs to run: runtime versions, package manager, missing .env keys, Docker services and the right start commands, then set it up step by step.",
+      "version": "1.0.0"
+    },
+    {
       "name": "exa-search",
       "source": "./exa-search",
       "description": "Give Claude live web search for current docs, release notes, changelogs and error messages newer than its training data, with dated sources. Uses the official Exa MCP server.",
@@ -97,6 +109,12 @@
       "source": "./figma-to-code",
       "description": "Turn Figma frames into React, Vue or HTML components that reuse your design tokens and existing components, responsive and accessible. Uses Figma's official MCP server.",
       "version": "1.3.2"
+    },
+    {
+      "name": "flaky-test-detector",
+      "source": "./flaky-test-detector",
+      "description": "Run your test suite several times, list the tests that pass and fail at random with their failure rate, then find the likely cause of each and fix it.",
+      "version": "1.0.0"
     },
     {
       "name": "graphql-guardian",

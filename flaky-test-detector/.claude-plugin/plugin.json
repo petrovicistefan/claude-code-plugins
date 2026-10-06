@@ -1,0 +1,29 @@
+{
+  "name": "flaky-test-detector",
+  "version": "1.0.0",
+  "displayName": "Flaky Test Detector: Find Unstable Tests",
+  "description": "Run your test suite several times, list the tests that pass and fail at random with their failure rate, then find the likely cause of each and fix it.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "flaky-tests",
+    "test-reliability",
+    "intermittent-failures",
+    "jest",
+    "vitest",
+    "pytest",
+    "go-test",
+    "junit",
+    "ci",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/flaky-test-detector#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

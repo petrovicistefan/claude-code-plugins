@@ -1,6 +1,6 @@
 # Claude Code Plugins by Stefan Petrovici
 
-Thirty focused plugins for Claude Code that cover everyday development work: API types and docs, cloud costs, bundle size, commits, secrets, databases, translations, refactoring, test data and coverage, pull requests, responsive layouts, accessibility, performance, CI, Docker, GraphQL, dependencies and prompts. Each plugin is a folder with its own README, skill and slash commands.
+Thirty-three focused plugins for Claude Code that cover everyday development work: API types and docs, cloud costs, bundle size, commits, secrets, databases, translations, refactoring, test data and coverage, pull requests, responsive layouts, accessibility, performance, CI, Docker, GraphQL, dependencies, prompts, migrations, flaky tests and local setup. Each plugin is a folder with its own README, skill and slash commands.
 
 ## Install
 
@@ -17,6 +17,18 @@ To try one plugin from a local clone without installing it:
 claude --plugin-dir ./env-protector
 ```
 
+## Use the skills in other agents
+
+The skills in this repository follow the open Agent Skills format (`SKILL.md`), so they also work outside Claude Code, for example in Cursor, Codex CLI, Gemini CLI, GitHub Copilot and Windsurf:
+
+```bash
+npx skills add petrovicistefan/claude-code-plugins
+```
+
+Pick the skills and agents you want when the installer asks. To install by hand, copy a skill folder, for example `env-protector/skills/env-protector`, into your agent's skills directory (`.cursor/skills/`, `.agents/skills/` or the equivalent for your tool).
+
+Only the skills travel to other agents. The slash commands in each `commands/` folder are specific to Claude Code. The three plugins that declare an MCP server (`exa-search`, `figma-to-code`, `rls-schema-explorer`) use a standard MCP connection, so the same server also works in any MCP client.
+
 ## Plugins
 
 | Plugin | What it helps with | Command |
@@ -30,12 +42,15 @@ claude --plugin-dir ./env-protector
 | [ci-optimizer](ci-optimizer) | Slow, costly or unsafe GitHub Actions and GitLab CI | `/ci-optimizer:ci-check` |
 | [code-metrics-tracker](code-metrics-tracker) | Complexity, long functions and duplicated code | `/code-metrics-tracker:metrics` |
 | [context-compactor](context-compactor) | Keeping long sessions small and fast | `/context-compactor:compact-plan` |
+| [db-migration-safety](db-migration-safety) | Migrations that lock tables, lose data or break the running app | `/db-migration-safety:check-migration` |
 | [db-schema-spy](db-schema-spy) | Tables, relations, indexes and ER diagrams | `/db-schema-spy:schema` |
 | [dependency-sentinel](dependency-sentinel) | Known vulnerabilities and licenses of dependencies | `/dependency-sentinel:dep-scan` |
 | [dockerfile-optimizer](dockerfile-optimizer) | Smaller, faster and safer Docker images | `/dockerfile-optimizer:docker-check` |
 | [env-protector](env-protector) | Keeping secrets out of the chat and out of git | `/env-protector:scan-secrets` |
+| [env-setup-wizard](env-setup-wizard) | Getting a freshly cloned repo to run locally | `/env-setup-wizard:setup` |
 | [exa-search](exa-search) | Current docs and releases through Exa | `/exa-search:search` |
 | [figma-to-code](figma-to-code) | Figma frames to components in your stack | `/figma-to-code:implement` |
+| [flaky-test-detector](flaky-test-detector) | Tests that pass and fail at random | `/flaky-test-detector:flaky` |
 | [graphql-guardian](graphql-guardian) | Breaking GraphQL schema changes and N+1 queries | `/graphql-guardian:graphql-diff` |
 | [headroom](headroom) | Very large logs, documents, JSON and CSV files | `/headroom:peek` |
 | [i18n-sync](i18n-sync) | Missing and untranslated keys in locale files | `/i18n-sync:i18n-check` |
