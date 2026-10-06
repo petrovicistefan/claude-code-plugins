@@ -84,6 +84,10 @@ Built by [Stefan Petrovici](https://petrovicistefan.ro), a software engineer ope
 
 Need something like this for your team? Email [hello@petrovicistefan.ro](mailto:hello@petrovicistefan.ro), or see my work at [petrovicistefan.ro](https://petrovicistefan.ro) and [iasi.dev](https://iasi.dev).
 
+## Support
+
+These plugins are free and MIT licensed. If they save you time, you can support the work on [Ko-fi](https://ko-fi.com/stefanpetrovici).
+
 ## License
 
 MIT. Made by [Stefan Petrovici](https://petrovicistefan.ro). See the [privacy policy](PRIVACY.md).
