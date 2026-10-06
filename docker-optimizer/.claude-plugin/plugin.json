@@ -1,0 +1,30 @@
+{
+  "name": "docker-optimizer",
+  "version": "1.0.0",
+  "displayName": "Docker Optimizer: Smaller, Safer Docker Images",
+  "description": "Review Dockerfiles for image size, build cache order and security: multi-stage builds, slim base images, non-root users, no secrets in layers, and a complete .dockerignore.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "docker",
+    "dockerfile",
+    "containers",
+    "image-size",
+    "multi-stage-build",
+    "container-security",
+    "dockerignore",
+    "devops",
+    "kubernetes",
+    "buildkit",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/docker-optimizer#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

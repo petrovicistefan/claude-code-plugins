@@ -1,0 +1,30 @@
+{
+  "name": "code-metrics-tracker",
+  "version": "1.0.0",
+  "displayName": "Code Metrics: Complexity and Duplication Report",
+  "description": "Measure cyclomatic complexity, long functions, large files and duplicated code in Python, JavaScript, TypeScript, Java, Go and more, and track tech debt over time.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "code-quality",
+    "cyclomatic-complexity",
+    "tech-debt",
+    "code-duplication",
+    "refactoring",
+    "maintainability",
+    "metrics",
+    "static-analysis",
+    "code-review",
+    "clean-code",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/code-metrics-tracker#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

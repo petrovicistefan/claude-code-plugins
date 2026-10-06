@@ -1,0 +1,30 @@
+{
+  "name": "ci-optimizer",
+  "version": "1.0.0",
+  "displayName": "CI Optimizer: Faster GitHub Actions and GitLab CI",
+  "description": "Speed up and secure GitHub Actions and GitLab CI: find missing caches, wasted runs, missing timeouts, unpinned actions and flaky tests, using your real run times.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ci-cd",
+    "github-actions",
+    "gitlab-ci",
+    "ci-optimization",
+    "build-speed",
+    "caching",
+    "flaky-tests",
+    "devops",
+    "workflow",
+    "pipeline",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/ci-optimizer#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

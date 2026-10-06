@@ -1,0 +1,30 @@
+{
+  "name": "perf-profiler",
+  "version": "1.0.0",
+  "displayName": "Perf Profiler: Lighthouse and Core Web Vitals",
+  "description": "Find out why a page is slow: Lighthouse and PageSpeed Insights results explained, LCP, INP and CLS causes, biggest savings first, plus React and Vue re-render and memory leak checks.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "performance",
+    "lighthouse",
+    "core-web-vitals",
+    "pagespeed",
+    "lcp",
+    "inp",
+    "cls",
+    "web-performance",
+    "react",
+    "page-speed",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/perf-profiler#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

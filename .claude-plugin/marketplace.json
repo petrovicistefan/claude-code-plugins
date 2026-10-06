@@ -9,6 +9,18 @@
   },
   "plugins": [
     {
+      "name": "a11y-enforcer",
+      "source": "./a11y-enforcer",
+      "description": "Find WCAG 2.2 accessibility problems in HTML, React, Vue, Svelte and Astro: missing alt text and labels, keyboard traps, focus issues and color contrast, then fix them.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "api-doc-generator",
+      "source": "./api-doc-generator",
+      "description": "Write OpenAPI 3.1 docs from the real routes in Express, NestJS, Next.js, FastAPI, Flask, Spring and Go code, and check in CI that the docs still match the code.",
+      "version": "1.0.0"
+    },
+    {
       "name": "api-drift-detector",
       "source": "./api-drift-detector",
       "description": "Catch breaking API changes before production: compare TypeScript types across frontend, backend and Prisma or SQL schemas, and confirm mismatches with tsc.",
@@ -33,6 +45,18 @@
       "version": "1.3.2"
     },
     {
+      "name": "ci-optimizer",
+      "source": "./ci-optimizer",
+      "description": "Speed up and secure GitHub Actions and GitLab CI: find missing caches, wasted runs, missing timeouts, unpinned actions and flaky tests, using your real run times.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "code-metrics-tracker",
+      "source": "./code-metrics-tracker",
+      "description": "Measure cyclomatic complexity, long functions, large files and duplicated code in Python, JavaScript, TypeScript, Java, Go and more, and track tech debt over time.",
+      "version": "1.0.0"
+    },
+    {
       "name": "context-compactor",
       "source": "./context-compactor",
       "description": "Keep long Claude Code sessions fast and under the context limit: read less, summarize state, and get the exact /compact command that keeps what matters.",
@@ -43,6 +67,18 @@
       "source": "./db-schema-spy",
       "description": "See your real database schema before writing SQL: tables, columns, foreign keys and indexes from Prisma, Drizzle, Django, Rails or migrations, with Mermaid ER diagrams.",
       "version": "1.3.2"
+    },
+    {
+      "name": "dependency-sentinel",
+      "source": "./dependency-sentinel",
+      "description": "Check npm, PyPI, Go, Cargo, RubyGems and Composer lockfiles for known CVEs with OSV.dev, get the fixed versions, and flag GPL, AGPL and non-commercial licenses.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "docker-optimizer",
+      "source": "./docker-optimizer",
+      "description": "Review Dockerfiles for image size, build cache order and security: multi-stage builds, slim base images, non-root users, no secrets in layers, and a complete .dockerignore.",
+      "version": "1.0.0"
     },
     {
       "name": "env-protector",
@@ -61,6 +97,12 @@
       "source": "./figma-to-code",
       "description": "Turn Figma frames into React, Vue or HTML components that reuse your design tokens and existing components, responsive and accessible. Uses Figma's official MCP server.",
       "version": "1.3.2"
+    },
+    {
+      "name": "graphql-guardian",
+      "source": "./graphql-guardian",
+      "description": "Catch breaking GraphQL schema changes before merge, find N+1 database queries in resolvers, and check pagination, depth and cost limits. Works with any SDL schema.",
+      "version": "1.0.0"
     },
     {
       "name": "headroom",
@@ -93,6 +135,12 @@
       "version": "1.3.2"
     },
     {
+      "name": "perf-profiler",
+      "source": "./perf-profiler",
+      "description": "Find out why a page is slow: Lighthouse and PageSpeed Insights results explained, LCP, INP and CLS causes, biggest savings first, plus React and Vue re-render and memory leak checks.",
+      "version": "1.0.0"
+    },
+    {
       "name": "pr-story-aligner",
       "source": "./pr-story-aligner",
       "description": "Check a pull request against its Jira, Linear or GitHub issue before merge: each acceptance criterion marked done, partial or missing, plus out-of-scope changes.",
@@ -103,6 +151,12 @@
       "source": "./project-memory",
       "description": "Give Claude Code long-term memory per project: remember decisions, conventions and setup across sessions in a local SQLite file. Recall, update and forget on demand.",
       "version": "1.4.0"
+    },
+    {
+      "name": "prompt-optimizer",
+      "source": "./prompt-optimizer",
+      "description": "Review and rewrite prompts and system prompts for Claude and other LLMs: find repetition, filler and vague instructions, keep template variables, and measure the token savings.",
+      "version": "1.0.0"
     },
     {
       "name": "responsive-check",
@@ -127,6 +181,12 @@
       "source": "./task-observer",
       "description": "Turn your corrections into lasting rules in CLAUDE.md, so Claude Code remembers your package manager, style and conventions in every session.",
       "version": "1.3.2"
+    },
+    {
+      "name": "test-coverage-intelligence",
+      "source": "./test-coverage-intelligence",
+      "description": "Turn lcov, Cobertura, Istanbul, JaCoCo or Go coverage reports into a list of the riskiest untested code, ranked by git churn, then write the missing tests.",
+      "version": "1.0.0"
     }
   ]
 }

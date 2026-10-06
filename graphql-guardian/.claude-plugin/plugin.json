@@ -1,0 +1,30 @@
+{
+  "name": "graphql-guardian",
+  "version": "1.0.0",
+  "displayName": "GraphQL Guardian: Breaking Changes and N+1 Check",
+  "description": "Catch breaking GraphQL schema changes before merge, find N+1 database queries in resolvers, and check pagination, depth and cost limits. Works with any SDL schema.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "graphql",
+    "schema",
+    "breaking-changes",
+    "n-plus-one",
+    "dataloader",
+    "apollo",
+    "resolvers",
+    "api",
+    "schema-diff",
+    "performance",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/graphql-guardian#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

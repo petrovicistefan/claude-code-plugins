@@ -1,0 +1,30 @@
+{
+  "name": "a11y-enforcer",
+  "version": "1.0.0",
+  "displayName": "A11y Enforcer: WCAG Accessibility Checker",
+  "description": "Find WCAG 2.2 accessibility problems in HTML, React, Vue, Svelte and Astro: missing alt text and labels, keyboard traps, focus issues and color contrast, then fix them.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "wcag",
+    "wcag-2.2",
+    "screen-reader",
+    "keyboard-navigation",
+    "color-contrast",
+    "aria",
+    "react",
+    "vue",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/a11y-enforcer#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

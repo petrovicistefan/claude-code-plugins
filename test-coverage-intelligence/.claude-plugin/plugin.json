@@ -1,0 +1,30 @@
+{
+  "name": "test-coverage-intelligence",
+  "version": "1.0.0",
+  "displayName": "Test Coverage Intelligence: Risk-Ranked Coverage Gaps",
+  "description": "Turn lcov, Cobertura, Istanbul, JaCoCo or Go coverage reports into a list of the riskiest untested code, ranked by git churn, then write the missing tests.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "test-coverage",
+    "code-coverage",
+    "testing",
+    "unit-tests",
+    "lcov",
+    "jest",
+    "pytest",
+    "mutation-testing",
+    "vitest",
+    "qa",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/test-coverage-intelligence#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "dependency-sentinel",
+  "version": "1.0.0",
+  "displayName": "Dependency Sentinel: Vulnerability and License Scanner",
+  "description": "Check npm, PyPI, Go, Cargo, RubyGems and Composer lockfiles for known CVEs with OSV.dev, get the fixed versions, and flag GPL, AGPL and non-commercial licenses.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "vulnerabilities",
+    "cve",
+    "osv",
+    "npm-audit",
+    "dependencies",
+    "license-compliance",
+    "supply-chain",
+    "sca",
+    "dependabot",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/dependency-sentinel#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

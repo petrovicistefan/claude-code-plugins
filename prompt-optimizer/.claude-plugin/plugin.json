@@ -1,0 +1,30 @@
+{
+  "name": "prompt-optimizer",
+  "version": "1.0.0",
+  "displayName": "Prompt Optimizer: Clearer, Shorter LLM Prompts",
+  "description": "Review and rewrite prompts and system prompts for Claude and other LLMs: find repetition, filler and vague instructions, keep template variables, and measure the token savings.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "prompt-engineering",
+    "prompts",
+    "system-prompt",
+    "llm",
+    "claude",
+    "tokens",
+    "token-optimization",
+    "ai",
+    "prompt-review",
+    "cost",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/prompt-optimizer#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

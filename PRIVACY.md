@@ -15,6 +15,7 @@ Most plugins only contain instructions for Claude and small scripts that run loc
 - `project-memory` stores memories in `.project-memory/memory.db` in your project
 - `task-observer` writes preferences to `CLAUDE.md` or `CLAUDE.local.md`, only after you agree
 - `bundle-size-sentinel`, `headroom`, `i18n-sync`, `env-protector` and `responsive-check` write reports or screenshots only to the folders you choose
+- `code-metrics-tracker`, `test-coverage-intelligence`, `dependency-sentinel` and `perf-profiler` write snapshots or reports only to the files you name
 
 ## Third-party services
 
@@ -27,6 +28,9 @@ Some plugins use services that you connect and sign in to yourself. Data goes di
 | rls-schema-explorer | Supabase (mcp.supabase.com), read-only | Schema and read-only query requests for your project |
 | aws-cost-guard | AWS and your Kubernetes cluster, through your own CLI tools | Read-only API calls with your own credentials |
 | pr-story-aligner | GitHub, through your own `gh` CLI | Requests for the issues and pull requests you name |
+| ci-optimizer | GitHub, through your own `gh` CLI | Requests for workflow runs and logs of your repository |
+| dependency-sentinel | OSV.dev (api.osv.dev, run by Google) | Package names, versions and ecosystems from your lockfiles. No code or credentials |
+| perf-profiler | Google PageSpeed Insights (googleapis.com), only with `--psi` | The public URL you ask it to test, and your API key if you provide one |
 
 Your conversations with Claude are handled by Anthropic under Anthropic's own privacy policy.
 

@@ -1,0 +1,30 @@
+{
+  "name": "api-doc-generator",
+  "version": "1.0.0",
+  "displayName": "API Doc Generator: OpenAPI from Your Code",
+  "description": "Write OpenAPI 3.1 docs from the real routes in Express, NestJS, Next.js, FastAPI, Flask, Spring and Go code, and check in CI that the docs still match the code.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "openapi",
+    "swagger",
+    "api-documentation",
+    "rest-api",
+    "express",
+    "nestjs",
+    "fastapi",
+    "nextjs",
+    "api-docs",
+    "postman",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/api-doc-generator#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}
