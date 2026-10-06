@@ -1,6 +1,6 @@
 # Claude Code Plugins by Stefan Petrovici
 
-Thirty focused plugins for Claude Code that cover everyday development work: API types and docs, cloud costs, bundle size, commits, secrets, databases, translations, refactoring, test data and coverage, pull requests, responsive layouts, accessibility, performance, CI, Docker, GraphQL, dependencies and prompts. Each plugin is a folder with its own README, skill and slash commands.
+Thirty focused plugins for Claude Code that cover everyday development work: API types and docs, cloud costs, bundle size, commits, secrets, databases, translations, refactoring, test data and coverage, pull requests, responsive layouts, accessibility, performance, CI, Docker, GraphQL, dependencies and prompts. Each plugin is a folder with its own README, skill and slash commands. The skills use the open Agent Skills format, so they also work in Cursor, Codex CLI, Gemini CLI and other agents (see [Use the skills in other agents](#use-the-skills-in-other-agents)).
 
 ## Install
 
