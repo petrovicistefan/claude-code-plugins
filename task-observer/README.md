@@ -15,6 +15,10 @@ When you correct how Claude works or state a lasting preference, such as your pa
 
 Rules are saved in files in your project, only after you agree. Nothing is sent anywhere.
 
+## Not related to other projects
+
+This plugin only writes your preferences to `CLAUDE.md`. It is not related to the `task-observer` skill in `rebelytics/one-skill-to-rule-them-all`.
+
 ## About the author
 
 <a href="https://petrovicistefan.ro"><img src="https://raw.githubusercontent.com/petrovicistefan/claude-code-plugins/main/assets/ps-logo.png" alt="Stefan Petrovici logo" width="120"></a>

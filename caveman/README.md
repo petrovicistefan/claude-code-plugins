@@ -16,6 +16,10 @@ When caveman mode is on, Claude keeps answers to a few bullets or sentences, sho
 
 The plugin only contains instructions for Claude. It runs no code and sends no data anywhere.
 
+## Not related to other projects
+
+This plugin is a short set of instructions written for this repository. It is not related to the `caveman` project by JuliusBrussee.
+
 ## About the author
 
 <a href="https://petrovicistefan.ro"><img src="https://raw.githubusercontent.com/petrovicistefan/claude-code-plugins/main/assets/ps-logo.png" alt="Stefan Petrovici logo" width="120"></a>
