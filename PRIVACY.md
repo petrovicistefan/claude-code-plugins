@@ -29,6 +29,7 @@ Some plugins use services that you connect and sign in to yourself. Data goes di
 | aws-cost-guard | AWS and your Kubernetes cluster, through your own CLI tools | Read-only API calls with your own credentials |
 | pr-story-aligner | GitHub, through your own `gh` CLI | Requests for the issues and pull requests you name |
 | ci-optimizer | GitHub, through your own `gh` CLI | Requests for workflow runs and logs of your repository |
+| iac-reviewer | Your cloud provider, through your own `terraform` or `tofu` CLI, only for `plan` | Read-only plan requests with your own credentials |
 | dependency-sentinel | OSV.dev (api.osv.dev, run by Google) | Package names, versions and ecosystems from your lockfiles. No code or credentials |
 | perf-profiler | Google PageSpeed Insights (googleapis.com), only with `--psi` | The public URL you ask it to test, and your API key if you provide one |
 

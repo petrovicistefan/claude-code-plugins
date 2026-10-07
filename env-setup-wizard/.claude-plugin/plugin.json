@@ -1,0 +1,30 @@
+{
+  "name": "env-setup-wizard",
+  "version": "1.0.0",
+  "displayName": "Env Setup Wizard: Project Setup and Onboarding",
+  "description": "Work out what a project needs to run (Node, Python, Go, Docker, services, env vars), compare it with your machine and write a verified one-command setup script.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "onboarding",
+    "developer-experience",
+    "dev-environment",
+    "setup",
+    "dotenv",
+    "docker-compose",
+    "nvm",
+    "makefile",
+    "readme",
+    "tooling",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/env-setup-wizard#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

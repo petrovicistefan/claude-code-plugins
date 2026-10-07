@@ -1,0 +1,30 @@
+{
+  "name": "iac-reviewer",
+  "version": "1.0.0",
+  "displayName": "IaC Reviewer: Terraform Security and Cost Check",
+  "description": "Review Terraform and OpenTofu code for open ports, public buckets, hardcoded secrets, missing encryption, unpinned modules and cost traps, then run validate and plan safely.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "terraform",
+    "opentofu",
+    "infrastructure-as-code",
+    "iac",
+    "aws",
+    "security",
+    "devops",
+    "cloud",
+    "tfsec",
+    "cost",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/iac-reviewer#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "api-load-tester",
+  "version": "1.0.0",
+  "displayName": "API Load Tester: Latency and Throughput Tests",
+  "description": "Load test your own API with a safe built-in runner or a generated k6 script: ramp-up, p50/p95/p99 latency, error rates and where it starts to saturate.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "load-testing",
+    "performance",
+    "api",
+    "k6",
+    "stress-test",
+    "latency",
+    "throughput",
+    "benchmark",
+    "http",
+    "backend",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/api-load-tester#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

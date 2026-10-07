@@ -36,22 +36,30 @@ Only the skills travel to other agents. The slash commands in each `commands/` f
 | [a11y-enforcer](a11y-enforcer) | WCAG accessibility problems and color contrast | `/a11y-enforcer:a11y-check` |
 | [api-doc-generator](api-doc-generator) | OpenAPI docs from the routes in your code | `/api-doc-generator:api-docs` |
 | [api-drift-detector](api-drift-detector) | Mismatched types between frontend, backend and database | `/api-drift-detector:check-drift` |
+| [api-load-tester](api-load-tester) | Load tests and latency percentiles for your API | `/api-load-tester:load-test` |
 | [aws-cost-guard](aws-cost-guard) | AWS costs by service, idle resources, failing Kubernetes pods | `/aws-cost-guard:costs` |
 | [bundle-size-sentinel](bundle-size-sentinel) | Heavy dependencies and bundle size per build | `/bundle-size-sentinel:bundle-size` |
 | [caveman](caveman) | Short, direct answers | `/caveman:caveman` |
 | [ci-optimizer](ci-optimizer) | Slow, costly or unsafe GitHub Actions and GitLab CI | `/ci-optimizer:ci-check` |
 | [code-metrics-tracker](code-metrics-tracker) | Complexity, long functions and duplicated code | `/code-metrics-tracker:metrics` |
 | [context-compactor](context-compactor) | Keeping long sessions small and fast | `/context-compactor:compact-plan` |
+| [data-pipeline-builder](data-pipeline-builder) | dbt and Airflow quality problems | `/data-pipeline-builder:pipeline-check` |
+| [db-migration-safety](db-migration-safety) | Risky database migrations and their safe versions | `/db-migration-safety:migration-check` |
 | [db-schema-spy](db-schema-spy) | Tables, relations, indexes and ER diagrams | `/db-schema-spy:schema` |
 | [dependency-sentinel](dependency-sentinel) | Known vulnerabilities and licenses of dependencies | `/dependency-sentinel:dep-scan` |
 | [dockerfile-optimizer](dockerfile-optimizer) | Smaller, faster and safer Docker images | `/dockerfile-optimizer:docker-check` |
+| [e2e-test-generator](e2e-test-generator) | Playwright and Cypress tests from your real pages | `/e2e-test-generator:e2e-map` |
 | [env-protector](env-protector) | Keeping secrets out of the chat and out of git | `/env-protector:scan-secrets` |
+| [env-setup-wizard](env-setup-wizard) | Setup requirements and a one-command setup script | `/env-setup-wizard:env-audit` |
 | [exa-search](exa-search) | Current docs and releases through Exa | `/exa-search:search` |
 | [figma-to-code](figma-to-code) | Figma frames to components in your stack | `/figma-to-code:implement` |
 | [graphql-guardian](graphql-guardian) | Breaking GraphQL schema changes and N+1 queries | `/graphql-guardian:graphql-diff` |
 | [headroom](headroom) | Very large logs, documents, JSON and CSV files | `/headroom:peek` |
 | [i18n-sync](i18n-sync) | Missing and untranslated keys in locale files | `/i18n-sync:i18n-check` |
+| [iac-reviewer](iac-reviewer) | Terraform security, cost and hygiene problems | `/iac-reviewer:iac-check` |
+| [integration-test-helper](integration-test-helper) | Integration tests, contract tests and mocks | `/integration-test-helper:integration-map` |
 | [legacy-refactor-pilot](legacy-refactor-pilot) | Step-by-step modernization of old code | `/legacy-refactor-pilot:modernize` |
+| [mobile-release-check](mobile-release-check) | Release problems in mobile app projects | `/mobile-release-check:mobile-check` |
 | [mock-data-hydrator](mock-data-hydrator) | Seed and test data that matches your schema | `/mock-data-hydrator:seed` |
 | [omniout](omniout) | Retries and model fallback in your app's LLM calls | `/omniout:add-fallback` |
 | [perf-profiler](perf-profiler) | Lighthouse results and Core Web Vitals causes | `/perf-profiler:perf-audit` |
@@ -68,7 +76,7 @@ You can also just describe the task. Each plugin's skill tells Claude when to us
 
 ## External services
 
-Most plugins run only on your machine. Three connect to the official hosted MCP server of a service and need you to sign in once with `/mcp`: `exa-search` (Exa), `figma-to-code` (Figma) and `rls-schema-explorer` (Supabase, read-only). `aws-cost-guard`, `pr-story-aligner` and `ci-optimizer` use the `aws`, `kubectl` and `gh` command line tools you already have configured. `dependency-sentinel` sends package names and versions to the public OSV.dev vulnerability database, and `perf-profiler` can send a public URL you choose to Google PageSpeed Insights. Each plugin's README lists exactly what it sends and where.
+Most plugins run only on your machine. Three connect to the official hosted MCP server of a service and need you to sign in once with `/mcp`: `exa-search` (Exa), `figma-to-code` (Figma) and `rls-schema-explorer` (Supabase, read-only). `aws-cost-guard`, `pr-story-aligner`, `ci-optimizer` and `iac-reviewer` use the `aws`, `kubectl`, `gh` and `terraform` command line tools you already have configured. `dependency-sentinel` sends package names and versions to the public OSV.dev vulnerability database, and `perf-profiler` can send a public URL you choose to Google PageSpeed Insights. Each plugin's README lists exactly what it sends and where.
 
 ## Check the plugins
 

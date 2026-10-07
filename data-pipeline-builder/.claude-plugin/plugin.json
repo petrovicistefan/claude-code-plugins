@@ -1,0 +1,30 @@
+{
+  "name": "data-pipeline-builder",
+  "version": "1.0.0",
+  "displayName": "Data Pipeline Builder: dbt and Airflow Checks",
+  "description": "Review and write dbt models and Airflow DAGs: missing tests and docs, unsafe SELECT *, hardcoded tables, no retries, catchup surprises, work at import time and credentials in code.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "data-engineering",
+    "dbt",
+    "airflow",
+    "etl",
+    "elt",
+    "data-quality",
+    "data-pipeline",
+    "sql",
+    "analytics-engineering",
+    "dag",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/data-pipeline-builder#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

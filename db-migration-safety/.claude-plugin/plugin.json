@@ -1,0 +1,30 @@
+{
+  "name": "db-migration-safety",
+  "version": "1.0.0",
+  "displayName": "DB Migration Safety: Lock and Data-Loss Check",
+  "description": "Check SQL, Rails, Alembic, Knex, Sequelize and Django migrations for table locks, data loss, missing rollbacks and unsafe renames, and get the safe expand-and-contract version.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "database",
+    "migrations",
+    "postgresql",
+    "mysql",
+    "schema-migration",
+    "zero-downtime",
+    "rails",
+    "alembic",
+    "prisma",
+    "knex",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/db-migration-safety#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

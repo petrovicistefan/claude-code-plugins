@@ -1,0 +1,30 @@
+{
+  "name": "e2e-test-generator",
+  "version": "1.0.0",
+  "displayName": "E2E Test Generator: Playwright and Cypress Tests",
+  "description": "Write Playwright or Cypress end-to-end tests from your real routes, forms and buttons, using stable selectors, and find the pages that need test hooks first.",
+  "author": {
+    "name": "Stefan Petrovici",
+    "email": "hello@petrovicistefan.ro",
+    "url": "https://petrovicistefan.ro"
+  },
+  "license": "MIT",
+  "keywords": [
+    "e2e",
+    "end-to-end",
+    "playwright",
+    "cypress",
+    "testing",
+    "test-automation",
+    "qa",
+    "nextjs",
+    "react",
+    "vue",
+    "claude-code"
+  ],
+  "repository": "https://github.com/petrovicistefan/claude-code-plugins",
+  "homepage": "https://petrovicistefan.ro",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/e2e-test-generator#readme",
+  "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
+  "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
+}

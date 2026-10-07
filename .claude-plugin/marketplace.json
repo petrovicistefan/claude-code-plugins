@@ -27,6 +27,12 @@
       "version": "1.3.2"
     },
     {
+      "name": "api-load-tester",
+      "source": "./api-load-tester",
+      "description": "Load test your own API with a safe built-in runner or a generated k6 script: ramp-up, p50/p95/p99 latency, error rates and where it starts to saturate.",
+      "version": "1.0.0"
+    },
+    {
       "name": "aws-cost-guard",
       "source": "./aws-cost-guard",
       "description": "Find out why your AWS bill grew: costs by service, idle EC2, EBS and Elastic IPs, plus failing Kubernetes pods explained from logs. Read-only, uses your aws and kubectl CLI.",
@@ -63,6 +69,18 @@
       "version": "1.3.2"
     },
     {
+      "name": "data-pipeline-builder",
+      "source": "./data-pipeline-builder",
+      "description": "Review and write dbt models and Airflow DAGs: missing tests and docs, unsafe SELECT *, hardcoded tables, no retries, catchup surprises, work at import time and credentials in code.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "db-migration-safety",
+      "source": "./db-migration-safety",
+      "description": "Check SQL, Rails, Alembic, Knex, Sequelize and Django migrations for table locks, data loss, missing rollbacks and unsafe renames, and get the safe expand-and-contract version.",
+      "version": "1.0.0"
+    },
+    {
       "name": "db-schema-spy",
       "source": "./db-schema-spy",
       "description": "See your real database schema before writing SQL: tables, columns, foreign keys and indexes from Prisma, Drizzle, Django, Rails or migrations, with Mermaid ER diagrams.",
@@ -81,10 +99,22 @@
       "version": "1.0.0"
     },
     {
+      "name": "e2e-test-generator",
+      "source": "./e2e-test-generator",
+      "description": "Write Playwright or Cypress end-to-end tests from your real routes, forms and buttons, using stable selectors, and find the pages that need test hooks first.",
+      "version": "1.0.0"
+    },
+    {
       "name": "env-protector",
       "source": "./env-protector",
       "description": "Find leaked API keys, passwords and tokens in your code, scan staged files before commit, and keep .env secrets out of Claude's context and your git history.",
       "version": "1.3.2"
+    },
+    {
+      "name": "env-setup-wizard",
+      "source": "./env-setup-wizard",
+      "description": "Work out what a project needs to run (Node, Python, Go, Docker, services, env vars), compare it with your machine and write a verified one-command setup script.",
+      "version": "1.0.0"
     },
     {
       "name": "exa-search",
@@ -117,10 +147,28 @@
       "version": "1.3.2"
     },
     {
+      "name": "iac-reviewer",
+      "source": "./iac-reviewer",
+      "description": "Review Terraform and OpenTofu code for open ports, public buckets, hardcoded secrets, missing encryption, unpinned modules and cost traps, then run validate and plan safely.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "integration-test-helper",
+      "source": "./integration-test-helper",
+      "description": "Find every database, queue, cache and outside API your service uses, then write integration tests with real containers and contract tests with mocks for what you cannot run.",
+      "version": "1.0.0"
+    },
+    {
       "name": "legacy-refactor-pilot",
       "source": "./legacy-refactor-pilot",
       "description": "Modernize legacy code step by step: upgrade frameworks, replace deprecated APIs and old patterns, with tests and type checks after every change.",
       "version": "1.3.2"
+    },
+    {
+      "name": "mobile-release-check",
+      "source": "./mobile-release-check",
+      "description": "Check React Native, Flutter, Android and iOS projects before release: target SDK, debug signing, cleartext traffic, missing permission texts, hardcoded keys and version numbers.",
+      "version": "1.0.0"
     },
     {
       "name": "mock-data-hydrator",
