@@ -102,7 +102,12 @@ def env_vars(root):
             if m:
                 declared.add(m.group(1))
     used = set()
-    pat = re.compile(r"process\.env\.([A-Z][A-Z0-9_]*)|process\.env\[[\"']([A-Z][A-Z0-9_]*)|os\.environ(?:\.get)?\(?\[?[\"']([A-Z][A-Z0-9_]*)|os\.getenv\([\"']([A-Z][A-Z0-9_]*)|import\.meta\.env\.([A-Z][A-Z0-9_]*)|ENV\[[\"']([A-Z][A-Z0-9_]*)|os\.Getenv\(\"([A-Z][A-Z0-9_]*)")
+    name = r"([A-Z][A-Z0-9_]*)"
+    # Configuration lookups by language, as (object, member) pairs, each followed by a variable name.
+    lookups = [("process", "env"), ("import", "meta", "env"), ("os", "environ"), ("os", "getenv"),
+               ("os", "Getenv"), ("ENV",)]
+    after = r"(?:\.get)?[.(\[]\s*[\"']?"
+    pat = re.compile("|".join(r"\.".join(l) + after + name for l in lookups))
     for d, dirs, files in os.walk(root):
         dirs[:] = [x for x in dirs if x not in SKIP]
         for fn in files:
