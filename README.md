@@ -57,7 +57,6 @@ Only the skills travel to other agents. The slash commands in each `commands/` f
 | [headroom](headroom) | Very large logs, documents, JSON and CSV files | `/headroom:peek` |
 | [i18n-sync](i18n-sync) | Missing and untranslated keys in locale files | `/i18n-sync:i18n-check` |
 | [iac-reviewer](iac-reviewer) | Terraform security, cost and hygiene problems | `/iac-reviewer:iac-check` |
-| [integration-test-helper](integration-test-helper) | Integration tests, contract tests and mocks | `/integration-test-helper:integration-map` |
 | [legacy-refactor-pilot](legacy-refactor-pilot) | Step-by-step modernization of old code | `/legacy-refactor-pilot:modernize` |
 | [mobile-release-check](mobile-release-check) | Release problems in mobile app projects | `/mobile-release-check:mobile-check` |
 | [mock-data-hydrator](mock-data-hydrator) | Seed and test data that matches your schema | `/mock-data-hydrator:seed` |
@@ -68,6 +67,7 @@ Only the skills travel to other agents. The slash commands in each `commands/` f
 | [prompt-tightener](prompt-tightener) | Clearer, shorter prompts for LLM features | `/prompt-tightener:prompt-review` |
 | [responsive-check](responsive-check) | Screenshots and layout problems at several screen sizes | `/responsive-check:responsive` |
 | [rls-schema-explorer](rls-schema-explorer) | Real Supabase schema and RLS policies, read-only | `/rls-schema-explorer:schema` |
+| [service-boundary-tests](service-boundary-tests) | Integration tests, contract tests and mocks | `/service-boundary-tests:integration-map` |
 | [smart-commits](smart-commits) | Commit messages from the staged diff | `/smart-commits:commit` |
 | [task-observer](task-observer) | Turning your corrections into lasting project rules | `/task-observer:learn` |
 | [test-coverage-intelligence](test-coverage-intelligence) | Riskiest untested code and the tests it needs | `/test-coverage-intelligence:coverage-gaps` |

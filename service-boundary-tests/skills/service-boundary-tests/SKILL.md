@@ -1,5 +1,5 @@
 ---
-name: integration-test-helper
+name: service-boundary-tests
 description: "Use when writing or planning integration or contract tests, to find the databases, queues and outside APIs a service uses and pick containers, contracts or mocks."
 ---
 

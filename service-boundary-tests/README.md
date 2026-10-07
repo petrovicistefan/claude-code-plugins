@@ -1,4 +1,4 @@
-# Integration Test Helper: Services, Contracts, Mocks
+# Service Boundary Tests: Containers, Contracts and Mocks
 
 Find every database, queue, cache and outside API your service uses, then write integration tests with real containers and contract tests with mocks for what you cannot run.
 
@@ -10,8 +10,8 @@ Find every database, queue, cache and outside API your service uses, then write 
 
 ## Use it
 
-- `/integration-test-helper:integration-map`
-- `/integration-test-helper:integration-test the orders repository against Postgres`
+- `/service-boundary-tests:integration-map`
+- `/service-boundary-tests:integration-test the orders repository against Postgres`
 - Or ask: "How should I test our calls to the billing API?"
 
 ## Requirements

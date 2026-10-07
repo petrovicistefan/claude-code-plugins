@@ -1,7 +1,7 @@
 {
-  "name": "integration-test-helper",
+  "name": "service-boundary-tests",
   "version": "1.0.0",
-  "displayName": "Integration Test Helper: Services, Contracts, Mocks",
+  "displayName": "Service Boundary Tests: Containers, Contracts and Mocks",
   "description": "Find every database, queue, cache and outside API your service uses, then write integration tests with real containers and contract tests with mocks for what you cannot run.",
   "author": {
     "name": "Stefan Petrovici",
@@ -24,7 +24,7 @@
   ],
   "repository": "https://github.com/petrovicistefan/claude-code-plugins",
   "homepage": "https://petrovicistefan.ro",
-  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/integration-test-helper#readme",
+  "documentationUrl": "https://github.com/petrovicistefan/claude-code-plugins/tree/main/service-boundary-tests#readme",
   "supportUrl": "https://github.com/petrovicistefan/claude-code-plugins/issues",
   "privacyPolicyUrl": "https://github.com/petrovicistefan/claude-code-plugins/blob/main/PRIVACY.md"
 }

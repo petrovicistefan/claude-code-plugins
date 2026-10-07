@@ -153,12 +153,6 @@
       "version": "1.0.0"
     },
     {
-      "name": "integration-test-helper",
-      "source": "./integration-test-helper",
-      "description": "Find every database, queue, cache and outside API your service uses, then write integration tests with real containers and contract tests with mocks for what you cannot run.",
-      "version": "1.0.0"
-    },
-    {
       "name": "legacy-refactor-pilot",
       "source": "./legacy-refactor-pilot",
       "description": "Modernize legacy code step by step: upgrade frameworks, replace deprecated APIs and old patterns, with tests and type checks after every change.",
@@ -217,6 +211,12 @@
       "source": "./rls-schema-explorer",
       "description": "Let Claude read your real Supabase tables, columns and RLS policies before writing queries, migrations or supabase-js code. Read-only, official Supabase MCP server.",
       "version": "1.4.0"
+    },
+    {
+      "name": "service-boundary-tests",
+      "source": "./service-boundary-tests",
+      "description": "Find every database, queue, cache and outside API your service uses, then write integration tests with real containers and contract tests with mocks for what you cannot run.",
+      "version": "1.0.0"
     },
     {
       "name": "smart-commits",
