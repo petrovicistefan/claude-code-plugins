@@ -22,7 +22,7 @@ The script's `targetSdk` threshold is a constant that Google raises every year. 
 
 ## 2. Fix
 
-- **Debug signing on release**: create a release keystore, keep it outside the repo, and point Gradle to it through `~/.gradle/gradle.properties` or CI secrets. Recommend Play App Signing so the upload key can be reset. Do not generate or handle the user's real key and passwords; give the `keytool` command and let them run it.
+- **Debug signing on release**: create a release keystore, keep it outside the repo, and point Gradle to it through `the user-level Gradle properties file (gradle.properties in your Gradle home folder)` or CI secrets. Recommend Play App Signing so the upload key can be reset. Do not generate or handle the user's real key and passwords; give the `keytool` command and let them run it.
 - **Secrets in code**: a mobile app can be unpacked, so a key inside it is public. Move real secrets behind your own server; for public client keys (Maps, Firebase), restrict them by app id and API in the provider console.
 - **Cleartext traffic / ATS off**: switch endpoints to HTTPS; if one legacy host needs HTTP, add a scoped exception (Android `network_security_config.xml`, iOS `NSExceptionDomains`) instead of a global switch.
 - **Missing iOS usage descriptions**: add `NS...UsageDescription` strings that say why the permission is needed in plain language. Apple rejects vague texts like "needed for the app".

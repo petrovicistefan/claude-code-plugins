@@ -55,7 +55,7 @@ def main():
         if rel and "signingConfigs.debug" in rel.group(1) or re.search(r"release\s*\{[^}]*signingConfig\s*=?\s*signingConfigs\.(getByName\(\"debug\"\)|debug)", t, re.S):
             add("high", g, "release build is signed with the debug key. Play and the stores will reject it or it will not update.")
         if re.search(r"(storePassword|keyPassword)\s*[=(]?\s*[\"'][^\"']+[\"']", t):
-            add("high", g, "signing password written in the Gradle file. Read it from ~/.gradle/gradle.properties or the CI secret store.")
+            add("high", g, "signing password written in the Gradle file. Read it from the user-level Gradle properties file (gradle.properties in your Gradle home folder) or the CI secret store.")
         if rel and not re.search(r"minifyEnabled\s*(=\s*)?true|isMinifyEnabled\s*=\s*true", rel.group(1)):
             add("low", g, "release build does not enable minification (R8). Smaller app, harder to reverse.")
         if "versionCode" in t and re.search(r"versionCode\s*[=(]?\s*1\b", t):
