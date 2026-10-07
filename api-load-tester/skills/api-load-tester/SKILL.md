@@ -21,10 +21,10 @@ Measure how an API behaves under load, safely, and explain the result.
 ```bash
 python3 ${CLAUDE_SKILL_DIR}/scripts/loadtest.py http://localhost:3000/api/items --concurrency 10 --duration 20 --ramp 5
 python3 ${CLAUDE_SKILL_DIR}/scripts/loadtest.py http://localhost:3000/api/orders --method POST \
-  --header "Content-Type: application/json" --header "Authorization: Bearer $TOKEN" --body '{"sku":"test-1","qty":1}'
+  --header "Content-Type: application/json" --header "Authorization: Bearer <test-token>" --body '{"sku":"test-1","qty":1}'
 ```
 
-(Take the token from the user; do not invent or hardcode one.) Options: `--concurrency`, `--duration`, `--ramp`, `--max-rps` (cap, default 200), `--header` (repeatable), `--body`, `--method`.
+(`<test-token>` is a throwaway test-account token that the user types in for this run; never invent one, never reuse a real user's token, and never save it in a file.) Options: `--concurrency`, `--duration`, `--ramp`, `--max-rps` (cap, default 200), `--header` (repeatable), `--body`, `--method`.
 
 ## 2. Read the result
 
