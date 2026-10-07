@@ -4,7 +4,7 @@ Work out what a project needs to run (Node, Python, Go, Docker, services, env va
 
 ## What it does
 
-- A bundled Python script reads `.nvmrc`, `package.json` engines, `.python-version`, `pyproject.toml`, `go.mod`, `Gemfile`, `Cargo.toml`, Docker and docker-compose files, then checks the tools installed on your machine with `--version` and reports what is missing or too old.
+- A bundled Python script reads `.nvmrc`, `package.json` engines, `.python-version`, `pyproject.toml`, `go.mod`, `Gemfile`, `Cargo.toml`, Docker and docker-compose files, then checks which of those tools are installed on your machine and reports what is missing. Claude compares versions with simple `--version` commands.
 - It lists the services and host ports in docker-compose, the environment variables the code reads that are missing from `.env.example`, example variables nobody reads, and the useful scripts and Makefile targets.
 - Claude then writes a `scripts/setup.sh` (or Makefile target) and the README setup section, and runs it to prove that a fresh clone works.
 
@@ -20,7 +20,7 @@ Python 3.
 
 ## Data
 
-Runs locally. It reads variable names only and never prints their values. The only commands it runs are tool version checks such as `node --version`. The plugin sends nothing anywhere.
+Runs locally. It reads variable names only and never prints their values. The script runs no other program. The plugin sends nothing anywhere.
 
 ## About the author
 

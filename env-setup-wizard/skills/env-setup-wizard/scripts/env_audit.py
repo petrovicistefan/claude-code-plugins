@@ -4,14 +4,13 @@
   env_audit.py [folder]     default: current folder
 
 Reads version files, package manifests, docker-compose services, .env.example and
-the environment variables the code reads. Runs only `--version` style checks on
-tools. Never prints the values of any variable.
+the environment variables the code reads. Looks tools up on PATH without running them.
+Never prints the values of any variable.
 """
 import json
 import os
 import re
 import shutil
-import subprocess
 import sys
 
 SKIP = {"node_modules", ".git", "venv", ".venv", "dist", "build", "__pycache__", ".next", "target", "vendor"}
@@ -24,15 +23,9 @@ def read(p):
         return ""
 
 
-def version_of(cmd):
-    if not shutil.which(cmd[0]):
-        return None
-    try:
-        r = subprocess.run(cmd, capture_output=True, text=True, timeout=10)
-        m = re.search(r"\d+\.\d+(\.\d+)?", r.stdout + r.stderr)
-        return m.group(0) if m else "?"
-    except Exception:
-        return "?"
+def installed(cmd):
+    """Return the path of the tool if it is on PATH, else None. Nothing is executed."""
+    return shutil.which(cmd[0])
 
 
 def requirements(root):
@@ -124,8 +117,8 @@ def main():
     print("# Environment audit\n\n## Tools")
     missing = 0
     for tool, wanted, src, cmd in requirements(root):
-        have = version_of(cmd)
-        status = "MISSING" if have is None else f"found {have}"
+        have = installed(cmd)
+        status = "MISSING" if have is None else f"found at {have}"
         if have is None:
             missing += 1
         print(f"- {tool}: wants {wanted} ({src}), {status}")

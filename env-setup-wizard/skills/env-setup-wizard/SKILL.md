@@ -16,7 +16,7 @@ python3 ${CLAUDE_SKILL_DIR}/scripts/env_audit.py          # current folder
 python3 ${CLAUDE_SKILL_DIR}/scripts/env_audit.py services/api
 ```
 
-The report lists required tools with the version the project wants and what is installed, compose services and ports, environment variables that the code reads but `.env.example` lacks (and the reverse), and the project scripts. Variable names only; values are never printed. Do not open real `.env` files; if the user wants a value checked, ask them to confirm it exists.
+The report lists required tools with the version the project wants and whether each is on PATH (the script does not run them; run `node --version`, `python3 --version` and so on yourself to compare versions), compose services and ports, environment variables that the code reads but `.env.example` lacks (and the reverse), and the project scripts. Variable names only; values are never printed. Do not open real `.env` files; if the user wants a value checked, ask them to confirm it exists.
 
 ## 2. Fix the gaps
 
